@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(216, 232, 250);
+}
+
+#project-name {
+    font-size: 60px;
+    color: rgb(74, 74, 250);
+    left:400px;
+    top: 0px;
+    position: fixed;
+    visibility: visible;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#form {
+
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    border: black 2px solid;
+    visibility: hidden;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+
+.navigation-bar {
+    width: 7%;
+    position: absolute;
+    left: 40px;
+}
+
+#all-task {
+    font-family: cursive;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 3px;
+    color: black;
+    background-color: rgb(235, 235, 235);
+    border-bottom: black 1px solid;
+
+}
+
+
+#home-task {
+    font-family: cursive;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 3px;
+    color: black;
+    background-color: rgb(255, 226, 215);
+    border-bottom: black 1px solid;
+}
+
+
+#work-task {
+    font-family: cursive;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 3px;
+    color: black;
+    background-color: rgb(224, 255, 255);
+    border-bottom: black 1px solid;
+}
+
+#hobbies-task {
+    font-family: cursive;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    color: black;
+    margin-bottom: 20px;
+    background-color: rgb(244, 255, 227);
+    border-bottom: black 1px solid;
+}
+
+#click-new-task {
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 120px;
+    top: 3px;
+
+}
+
+
+#submit-button {
+    background-color:rgb(215, 229, 255);
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    height: 20px;
+    width: 60px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    position: center;
+    border: none;
+}
+
+.task-box {
+    margin-top: 2px;
+    margin-left: 2px;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    /*width: 98%; */
+    overflow-y: hidden;
+    font-size: 13px;
+    top: 120px;
+    left: 20px;
+
+}
+
+
+.red {
+    background-color: rgb(252, 218, 218);
+}
+
+.green {
+    background-color: rgb(234, 255, 234);
+}
+
+.entry-input {
+    width: 135px;
+    height: 18px;
+    margin-left: 3px;
+    float: left;
+    background-color: white;  
+    overflow: hidden;
+}
+
+
+
+.label-text {
+    float: left;
+}
+
